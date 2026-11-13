@@ -14,7 +14,7 @@ The application manages **Projects**, where each project can contain multiple **
 ---
 
 ### PostgreSQL (SQL) Schema & ASCII ER Diagram
-
+```
 +-----------------------+       +------------------------------------+
 |       PROJECTS        |       |               TASKS                |
 +-----------------------+       +------------------------------------+
@@ -24,6 +24,7 @@ The application manages **Projects**, where each project can contain multiple **
 +-----------------------+       |    status (VARCHAR)                |
                                 +------------------------------------+
 
+```
 ## Setup & Installation
 
 1. Make sure uv is intalled and added to your path
