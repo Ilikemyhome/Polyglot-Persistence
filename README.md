@@ -15,7 +15,6 @@ The application manages **Projects**, where each project can contain multiple **
 
 ### PostgreSQL (SQL) Schema & ASCII ER Diagram
 
-```text
 +-----------------------+       +------------------------------------+
 |       PROJECTS        |       |               TASKS                |
 +-----------------------+       +------------------------------------+
