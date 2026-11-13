@@ -1,0 +1,27 @@
+[project]
+name = "polyglot-persistence"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ilikemyhome", email = "arenasvivi7@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.162.5",
+    "httpx>=0.28.1",
+    "psycopg[binary]>=3.3.9",
+    "pydantic>=2.14.3",
+    "pydantic-settings>=2.16.2",
+    "pymongo>=4.20.0",
+    "pytest>=9.2.0",
+    "sqlalchemy>=2.1.8",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+polyglot-persistence = "polyglot_persistence:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
